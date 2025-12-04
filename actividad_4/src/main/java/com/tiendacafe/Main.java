@@ -1,7 +1,8 @@
-package com.example;
+package com.tiendacafe;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        TiendaCafe tienda = new TiendaCafe();
+        tienda.ejecutar();
     }
 }
